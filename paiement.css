@@ -1,0 +1,30 @@
+header p{
+text-align: center;
+background:url('mqdefault.jpg');    
+font-size: 45px;
+color: dodgerblue;
+margin-top: 0%;
+}
+
+div#contenir div{
+    display: inline-block;
+    width: 48%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: solid 2px chartreuse;
+    background-color: chartreuse;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    margin-top: 20px;
+}
+@media screen and (max-width:1880){
+    .bloc{
+        width: 98%;
+    }
+    
+}

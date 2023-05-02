@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body{
+    background-image:url(gg.jpg\(2\));
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ P{
+    margin: 10px;
+    font-size: 20px;
+ }
+    fieldset{
+        border-radius: 0px solid black;
+        padding: 140PX;
+       box-shadow: 15px 10px 16px  blue inset;
+        margin-right: 350px;
+        margin-left: 350px;
+        font-size: 20px;
+    }
+    .BTN{
+      margin-right: 1px;  
+      background-color: #333;
+      color: #fff; ;
+float: right;
+    }
+
+</style>
+<body>
+   
+ 
+  <form method="get">
+    <fieldset>
+ <legend> inscription</legend>
+
+    <p>remplissez soigneusement le formulaire</p>
+
+  <label for="nom"> votre nom : </label> <input type="text" id="nom" name="nom"> <br><br>
+  
+  <label for="prenom"> votre prenom : </label> <input type="text" id="prenom" name="prenom"> <br><br>
+  <label for="date"> votre date de maissance : </label> <input type="date" id="date" name="date"> 
+  <br><br>
+  <label for="adresse"> votre adresse : </label>  <input type="tel" id="adresse" name="adresse">
+   <br><br>
+  <label for="email"> votre email : </label> <input type="email" id="email" name="email">
+   <br><br>
+  <label for="sexe"> votre sexe : </label><select name="sexe" id="sexe"> 
+<option value="feminin">feminin </option> 
+  <option value="Masculin">Masculin </option> </select><input type="radio" id="feminins" name="feminin" value="feminin"> 
+  <br><br>
+  <label for="filiere"> votre filiere : </label> <input type="text" id="filiere" name="filiere">
+  <br><br>
+
+  <button class="BTN">ENVOYER </button>
+</fieldset>
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+header{
+    text-align: center;
+    background:url('pablo.jpg')
+    
+    
+}
+footer{
+background-color: darkgray;
+}
+nav.A a{
+    border: solid 2px red;
+ background-color: red;
+ text-decoration: none;
+ display: inline-block;
+
+}
+body{
+    background-color:skyblue;
+    font-size: 90%,75%,50%;
+}
+div#content div{
+    display: inline-block;
+
+}
+div#content div,p{
+font-display:  inherit;
+}
+a{
+    color: lightcoral;
+    text-decoration: underline;
+    font-family:  "montserrat",sans-serif;
+    font-size: 30px;
+    margin: 5px;
+}
+h1{
+   color:blue;
+   font-size: 50px;
+   font-family:'Times New Roman', Times, serif;
+   text-transform: capitalize;
+}
+@media screen and (max-width:1080px){
+    .bloc{
+        width: 98%;
+        font-size: 90%,70%,50%;
+    }
+  
+  }  

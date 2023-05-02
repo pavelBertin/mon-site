@@ -1,0 +1,47 @@
+div#content div{
+    display: inline-block;
+vertical-align: top;
+width: 48%;
+background-color: darkgrey;
+margin: 5px;
+}
+body{
+    background-color:white;
+}
+button{
+    background-color: greenyellow;
+}
+header{
+    text-align: center;
+    background:url('c1.jpg')
+    
+    
+}
+h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: gold;
+    text-transform:capitalize ;  
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    background:url('c3.jpg');
+    color:rgb(0, 255, 0);
+    text-align: center;
+    font-size: 30px;
+}
+@media screen and (max-width:1880){
+    .bloc{
+        width: 98%;
+    }
+    
+}

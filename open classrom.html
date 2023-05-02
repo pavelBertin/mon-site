@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="open.css" rel="stylesheet">
+</head>
+<body>            
+    <form method="get" action="">
+        <fieldset>
+            <legend>vos coordonneees</legend>
+            <label for="nom">Quel est votre nom? </label>
+            <input action="post" type="text" name="nom" id="nom">
+            <label for="prenom">Quel est votre prenom?</label>
+            <input action="post" type="text" name="prenom" id="prenom">
+            <label for="e-mail">Quel est votre e-mail</label>
+            <input action="post" type="e-mail" name="e-mail" id="e-mail"> 
+        </fieldset>
+        <fieldset>
+            <legend>Votre souhait</legend>
+            <p>Faites un souhait et vous le verrez exauce
+            <input action="post" type="radio" name="souhait" value="riche" id="riche">
+            <label for="riche">Etre riche</label>
+            <input action="post" type="radio" name="souhait" value="celebre" id="celebre">
+            <label  for="celebre">Etre celebre</label>
+            <input action="post" type="radio" name="souhait" value="intelligent" id="intelligent">
+            <label  for="intelligent">Etre<strong>encore</strong>plus intelligent</label>
+            <input action="post" type="radio" name="souhait" value="Autre" id="Autre">
+            <label for="Autre">Autres...</label>
+        </p>
+        <p>
+            <label for="precision">si "Autre",veillez preciser: </label>
+            <textarea name="precisions" id="precisions" cols="40" rows="4">
+            </textarea>
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>

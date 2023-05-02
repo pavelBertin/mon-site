@@ -1,0 +1,44 @@
+.P{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: red;
+}
+header#have a{
+   text-align: center;
+    text-decoration:dashed;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown ;
+    text-transform:uppercase ;
+    margin-inline: 7px;
+}
+section#content div p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.img{
+    align-self: start;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5px;
+    
+}
+div#box div{
+    display: inline-block;
+}
+header{
+    background-color: darkgrey;
+    height: 5%;
+}
+body{
+    background-color: aquamarine;
+}
+img{
+    align-self: start;
+    width:45%;
+    margin-left: 35%;
+    margin-top: 5px;
+}
